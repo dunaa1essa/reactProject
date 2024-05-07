@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import './navbar.css'
 import { assets } from '../../assets/assets'
-const navbar = () => {
 
-    const [menu,setmenu] = useState('menu');
+const Navbar = () => {
+
+    const [menu,setmenu] = useState('home');
+
   return (
     <div className='navbar'>
         <img src={assets.logo} alt='' className='logo'/>
@@ -11,12 +13,12 @@ const navbar = () => {
             <li onClick={()=>setmenu('home')} className={menu==='home'?'active':''}>home</li>
             <li onClick={()=>setmenu('menu')} className={menu==='menu'?'active':''}>menu</li>
             <li onClick={()=>setmenu('contact us')} className={menu==='contact us'?'active':''}>contact us</li>
-            <li onClick={()=>setmenu('abot us')} className={menu==='abot us'?'active':''}>abot us</li>
+            <li onClick={()=>setmenu('about us')} className={menu==='about us'?'active':''}>about us</li>
         </ul>
         <div className='navbar-right'>
-            <img src={assets.search_icon}/>
+            <img src={assets.search_icon} alt=''/>
             <div className='navbar-search-icon'>
-            <img src={assets.basket_icon}/>
+            <img src={assets.basket_icon} alt=''/>
             <div className='dot'></div>
             </div>
             <button>sing in</button>
@@ -25,4 +27,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
