@@ -1,12 +1,9 @@
-root{
-    --blue: #49557e;
- }
+
  .navbar{
      padding: 20px 0px;
      display: flex;
      justify-content: space-between;
      align-items: center;
-     margin: auto 12px;
  }
  .navbar .logo{
      width: 150px;
@@ -16,18 +13,17 @@ root{
      display: flex;
      list-style: none;
      gap: 20px;
-     color: var(--blue);
-     font-size: 1.2rem;
+     color:  #555;
+     font-size: 1.3rem;
  }
  .navbar-right{
      display: flex;
      align-items: center;
-     gap: 20px;
  }
  .navbar button{
      background: transparent;
-     font-size: 1.2rem;
-     color: var(--blue);
+     font-size: 1.3rem;
+     color:  #555;
      border: 1px solid tomato;
      padding: 10px 30px;
      border-radius: 50px;

@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 import Navbar from "./componets/Navbar/Navbar";
 import { Routes , Route } from 'react-router-dom';
-import Home from './pages/Home/home'
+import Home from './pages/Home/Home'
 import Cart from './pages/cart/cart'
 import PlaceOrder from './pages/PlaceOrder/placeOrder';
 
