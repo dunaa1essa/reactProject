@@ -17,6 +17,7 @@ const ExprolMenu = ({category,setCategory}) => {
         )
       })}
       </div>
+      <hr/>
     </div>
   )
 }

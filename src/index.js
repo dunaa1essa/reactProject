@@ -9,9 +9,9 @@ import StoreContextProvider from './context/StoreContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-  <StoreContextProvider>
-     <App />
-  </StoreContextProvider>
+    <StoreContextProvider>
+      <App />
+    </StoreContextProvider>
   </BrowserRouter>
 );
 

@@ -12,6 +12,7 @@ const Home = () => {
     <div>
       <Header/>
       <ExprolMenu category={category} setCategory={setCategory}/>
+      <FoodDisplay category={category}/>
     </div>
   )
 }
