@@ -8,8 +8,7 @@ const Footer = () => {
         <div className='footer-content'>
             <div className='footer-conten-left'>
                 <img src={assets.logo} alt=''/>
-                <p>Tomato is a specialized specialist for delivering delicious
-                     food in the best quality.</p>
+                <p>lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <div className='footer-social-icon'>
                     <img src={assets.facebook_icon} alt=''/>
                     <img src={assets.twitter_icon} alt=''/>
