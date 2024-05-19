@@ -18,7 +18,7 @@ const Footer = () => {
             <div className='footer-content-center'>
             </div>
             <div className='footer-content-right'>
-                <h2>Get In Touch</h2>
+                <h2>Contact Us</h2>
                 <ul>
                     <li>+966-123-456-789</li>
                     <li>tomato@tomato.com</li>
