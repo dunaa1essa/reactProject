@@ -35,6 +35,12 @@
     padding:10px ;
     border-radius: 4px;
 }
+.contact-us-inputs textarea{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding:10px ;
+    border-radius: 4px;
+}
 .contact-us hr{
     margin: 10px 0px;
     height: 2px;

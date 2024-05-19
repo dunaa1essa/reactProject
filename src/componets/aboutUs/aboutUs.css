@@ -1,0 +1,22 @@
+.about-us{
+    margin-top: 30px;
+}
+.about-us h1{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.about-us-map{
+    overflow: hidden;
+    padding-bottom: 56%;
+    position: relative;
+    height: 0;
+}
+.about-us-map iframe{
+  left: 0;
+  top: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding: 10px;
+}
