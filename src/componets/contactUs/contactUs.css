@@ -1,0 +1,43 @@
+.contact-us{
+    margin-top: 30px;
+}
+.contact-us h1{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.contact-us-container{
+    place-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+.contact-us-container button{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: tomato;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contact-us-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.contact-us-inputs input{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding:10px ;
+    border-radius: 4px;
+}
+.contact-us hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
